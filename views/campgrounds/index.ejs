@@ -17,9 +17,6 @@
     .card-body{
         padding:20px;
     }
-    .btn-add{
-        margin-bottom:20px;
-    }
 </style>
 <link  rel="stylesheet" href="/stylesheets/home.css" >
 <div id="cluster-map" ></div>
@@ -31,9 +28,9 @@
                 <div class="row">
                     <div class="col-md-4">
                         <% if(campground.images.length){%>
-                            <img  crossorigin="anonymous" class="img-fluid  perfect" alt="" src="<%=campground.images[0].url%>">          
+                            <img  crossorigin="anonymous" class="img-fluid  perfect card-img-top" alt="" src="<%=campground.images[0].url%>">          
                         <%}else{%>
-                            <img crossorigin="anonymous" class="img-fluid perfect" alt="" src="https://res.cloudinary.com/dlpaceabk/image/upload/v1721052899/YelpCamp/rmjbyu2z9qddt3pkr1dv.jpg">          
+                            <img crossorigin="anonymous" class="img-fluid perfect card-img-top" alt="" src="https://res.cloudinary.com/dlpaceabk/image/upload/v1721052899/YelpCamp/rmjbyu2z9qddt3pkr1dv.jpg">          
                         <%}%>
                     </div>
                     <div class="col-md-8">
